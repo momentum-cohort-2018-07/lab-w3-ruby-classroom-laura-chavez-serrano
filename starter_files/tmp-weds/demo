@@ -1,0 +1,19 @@
+require_relative 'person'
+require_relative 'Phone'
+
+i_phone = Phone.new("iPhone", "X", "Mambo No. 5")
+kate = Person.new("Kate", iphone)
+
+# puts i_phone.make
+# puts i_phone.model
+# puts i_phone.ringtone
+
+# puts "Here I am calling the ring method:"
+# puts iphone.ring
+
+# puts "Here I am trying to access the instance variable @ringtone"
+
+puts "Here is kate:"
+puts kate
+puts "Here is "
+puts iphone.ring

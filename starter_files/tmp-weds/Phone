@@ -1,0 +1,15 @@
+class Phone
+
+    attr_reader :make, :model, :ringtone
+
+    def initialize(make, model, ringtone)
+        puts "TA DA!! It's a new phone instance"
+        @make = make
+        @model = model
+        @ringtone = ringtone
+    end
+
+    def ring
+        "Brrringggg"*5
+    end
+end
